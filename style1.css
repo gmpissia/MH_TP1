@@ -1,0 +1,38 @@
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.titulo{
+    font-size: 55px;
+    height: 300px;
+    width: 960px;
+    background-image: url("/images/design1_image1.jpg");
+    background-size: 960px 327px;
+    background-position: center center;
+    margin: 80px 125px 5px;
+}
+
+.subtitulo{
+    display: block;
+    padding-left: 500px;
+    color: white;
+    background-color: black;
+    
+}
+
+.here{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: block;
+    margin: 50px;
+}
+nav>a{
+    display: block;
+   
+}

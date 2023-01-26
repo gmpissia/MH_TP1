@@ -16,11 +16,13 @@
 }
 
 .subtitulo{
-    display: block;
-    padding-left: 500px;
+    display: inline-block;
+    padding: 0px 370px 0px 400px;
+    margin-left: 125px;
+    margin-right: 125px;
     color: white;
     background-color: black;
-    
+    background-size: 960px;
 }
 
 .here{
@@ -31,8 +33,32 @@
 nav{
     display: block;
     margin: 50px;
+    margin-left: 20px;
 }
-nav>a{
+nav a{
     display: block;
-   
+   margin-left: 125px;
+   padding-bottom: 50px;
+   padding-bottom: 30px;
+}
+#imagenhockeydisenio2{
+    display: none;
+}
+#img-log{
+    position: relative;
+    left: -350px;
+    top: 50px;
+}
+ul{
+    list-style: none;
+}
+
+section{
+    width: 680px;
+    position: relative;
+    left: 400px;
+    top: -220px;
+}
+p{
+    text-indent: 1em;
 }

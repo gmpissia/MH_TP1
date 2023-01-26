@@ -1,3 +1,70 @@
-a{
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.titulo{
+    font-size: 55px;
+    margin-left: 125px;
+    margin-top: 80px ;
+}
+
+.subtitulo{
+    display: inline-block;
+    padding: 0px 370px 0px 400px;
+    margin-left: 125px;
+    margin-right: 125px;
+    color: black;
+    background-color: white;
+    background-size: 960px 100%;
+    border: solid black 1px;
+    position:relative;
+    top: -100px;
+}
+
+.here{
     text-decoration: none;
+    color: white;
+    background-color: rgb(46, 182, 46);
+}
+
+nav{
+    position:absolute;
+    top: 160px;
+    display: block;
+    margin-left: 780px;
+
+}
+nav ul{
+    list-style:none;
+    display:flex;
+}
+nav a{
+    display: inline-block;
+   background-color: rgb(65, 65, 206);
+   color: white;
+   text-decoration: none;
+   border: solid black 1px;
+   box-shadow: 5px 5px 5px black;
+   padding: 5px 10px;
+   margin-right: 13px;
+}
+#imagenhockeydisenio2{
+    height: 300px;
+    width: 960px;
+    margin-left: 125px;
+}
+#img-log{
+    position: relative;
+    left: -1000px;
+    top: 50px;
+}
+
+section{
+    position: relative;
+    left: 400px;
+    top: -60px;
 }

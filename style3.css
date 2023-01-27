@@ -1,15 +1,19 @@
 *{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: Brush Script MT;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    text-decoration: none;
 }
-
+body{
+    background-color: aquamarine;
+}
 
 .titulo{
     font-size: 55px;
     margin-left: 125px;
     margin-top: 80px ;
+    color: rgb(7, 7, 56);
 }
 
 .subtitulo{
@@ -17,8 +21,8 @@
     padding: 0px 370px 0px 400px;
     margin-left: 125px;
     margin-right: 125px;
-    color: black;
-    background-color: white;
+    color: blueviolet;
+    background-color: aqua;
     background-size: 960px 100%;
     border: solid black 1px;
     position:relative;
@@ -28,7 +32,7 @@
 .here{
     text-decoration: none;
     color: white;
-    background-color: rgb(46, 182, 46);
+    background-color: rgb(54, 141, 192);
 }
 
 nav{
@@ -44,7 +48,7 @@ nav ul{
 }
 nav a{
     display: inline-block;
-   background-color: rgb(65, 65, 206);
+   background-color: rgb(21, 108, 207);
    color: white;
    text-decoration: none;
    border: solid black 1px;
@@ -59,12 +63,21 @@ nav a{
 }
 #img-log{
     position: relative;
-    left: -1000px;
+    left: -300px;
     top: 50px;
 }
 
 section{
-    position: relative;
-    left: 400px;
-    top: -60px;
+    position: absolute;
+    left: 125px;
+    top: 500px;
+    width: 680px;
+}
+p{
+    text-indent: 1em;
+    font-size: 25px;
+}
+h3{
+    font-size: 30px;
+    color: blue;
 }

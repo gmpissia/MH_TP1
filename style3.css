@@ -1,5 +1,5 @@
 *{
-    font-family: Brush Script MT;
+    font-family: 'Times New Roman', Times, serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -16,17 +16,13 @@ body{
     color: rgb(7, 7, 56);
 }
 
+
 .subtitulo{
-    display: inline-block;
-    padding: 0px 370px 0px 400px;
-    margin-left: 125px;
-    margin-right: 125px;
-    color: blueviolet;
+    max-width: 71.5%;
     background-color: aqua;
-    background-size: 960px 100%;
+    text-align: center;
     border: solid black 1px;
-    position:relative;
-    top: -100px;
+    margin-left: 125px;
 }
 
 .here{
@@ -39,7 +35,7 @@ nav{
     position:absolute;
     top: 160px;
     display: block;
-    margin-left: 630px;
+    margin-left: 570px;
 
 }
 nav ul{
@@ -62,9 +58,9 @@ nav a{
     margin-left: 125px;
 }
 #img-log{
-    position: relative;
-    left: -300px;
-    top: 50px;
+    margin-left: 950px;
+    position: fixed;
+    top: 400px;
 }
 
 section{

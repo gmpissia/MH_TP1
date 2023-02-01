@@ -77,3 +77,30 @@ h3{
     font-size: 30px;
     color: blue;
 }
+
+.ul1{
+    list-style-type:circle;
+}
+.ol2{
+    list-style-type:lower-latin;
+}
+
+h5{
+    font-size: 25px;
+}
+h4{
+   font-size:  30px;
+}
+h6{
+    font-size: 22px;
+}
+table{
+    width: 800px;
+}
+td{
+    border: blue solid 1px;
+}
+th{
+    border: blue solid 1px;
+    
+}

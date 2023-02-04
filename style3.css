@@ -25,17 +25,13 @@ body{
     margin-left: 125px;
 }
 
-.here{
-    text-decoration: none;
-    color: white;
-    background-color: rgb(54, 141, 192);
-}
+
 
 nav{
     position:absolute;
     top: 160px;
     display: block;
-    margin-left: 570px;
+    margin-left: 420px;
 
 }
 nav ul{
@@ -45,7 +41,7 @@ nav ul{
 nav a{
     display: inline-block;
    background-color: rgb(21, 108, 207);
-   background: linear-gradient(to bottom right, rgb(21, 108, 207), pink);
+   
    color: white;
    text-decoration: none;
    border: solid black 1px;
@@ -53,6 +49,13 @@ nav a{
    padding: 5px 10px;
    margin-right: 13px;
 }
+.here {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(85, 27, 221);
+}
+
+
 #imagenhockeydisenio2{
     height: 300px;
     width: 960px;
@@ -104,4 +107,9 @@ td{
 th{
     border: blue solid 1px;
     
+}
+
+iframe{
+    padding: 20px;
+    background-color: rgb(69, 125, 230);
 }

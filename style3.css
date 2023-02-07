@@ -117,3 +117,15 @@ iframe{
 form{
     width: 680px;
 }
+
+.p_inf1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#street_address {
+    padding-right: 300px;
+
+}

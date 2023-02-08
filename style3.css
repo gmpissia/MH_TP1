@@ -75,7 +75,7 @@ section{
 }
 p{
     text-indent: 1em;
-    font-size: 25px;
+    font-size: 20px;
 }
 h3{
     font-size: 30px;
@@ -128,4 +128,18 @@ form{
 #street_address {
     padding-right: 300px;
 
+}
+.container-img{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+
+section>figure>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid blue;
 }
